@@ -15,7 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  points.msg
+  Index.msg
+  Voxels.msg
   UInt8Stamped.msg
   VolumeProp.msg
 )
